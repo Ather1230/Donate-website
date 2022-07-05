@@ -22,10 +22,10 @@ body{
 .banner-text p{
     font-size: 20px;
 }
-.banner-btn{
+.link-btn{
     margin: 50px auto 0;
 }
-.banner-btn a{
+.link-btn a{
     width: 150px;
     text-decoration: none;
     font-size: 27px;
@@ -57,6 +57,7 @@ body{
     width: 35%;
     margin-left: 4%;
     padding: 5%;
+    margin-bottom: 10px;
 
 }
 .div-all{
@@ -68,4 +69,21 @@ body{
 #Exp-div {
     border: 2px solid red;
 
+}
+.input-div{
+    width: 89%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+.link-div{
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+
+    
 }
