@@ -32,6 +32,7 @@ body{
     padding: 7px 14px;
     border-radius: 5px;
     border: none;
+    font-size: 27px; 
 }
 .link-btn a{
     text-decoration: none;
@@ -80,9 +81,10 @@ body{
     background-color: #FFEEEE;
 
 }
-.donate-form{
+.donate-form {
     width: 65%;
     margin: auto;
+    text-align: center;
 }
 .donate-form form input{
     border: none;
@@ -147,29 +149,35 @@ body{
 .middle-container h2{
     font-size: 50px;
 }
-.get-update-container{
-    margin-bottom: 150px;
+.get-update-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
 .get-update{
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
     text-align: center;
-    padding-top: 15px;
 }
 .get-update h2{
     font-size: 50px;
 }
-#form-area{
-    height: 17vh;
+#form-area {
     background-color: darkgrey;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.form-text{
-    margin-top: 60px;
-    height: 20px;
+.subscribe-form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
-.form-text input{
-    height: 20px;
+div#form-area form input {
+    padding: 15px;
+    border: none;
 }
 footer{
     background-color: #0B0D17;
@@ -182,5 +190,6 @@ footer h2{
     padding-top: 10px;
     font-family: 'Lobster', cursive;
 }
+
 
 
