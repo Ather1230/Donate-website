@@ -9,7 +9,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.5),#778899), url(img/banner.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@ body{
     margin-bottom: 15px;
 }
 .banner-text p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .link-btn{
     background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
@@ -54,7 +54,7 @@ body{
     font-weight: 700;
 }
 .donate-text p{
-    font-size: 23px;
+    font-size: 19px;
     font-weight: 500;
 
 }
