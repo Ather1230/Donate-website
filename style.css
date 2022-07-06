@@ -31,7 +31,8 @@ body{
     color: grey;
     padding: 7px 14px;
     border-radius: 5px;
-    border: 1px solid white;
+    border: none;
+    /* border: 1px solid white; */
 }
 .link-btn a{
     text-decoration: none;
@@ -97,6 +98,17 @@ body{
     font-size: 20px;
 
 }
+
+/* #btn-link{
+    margin-top: 50px;
+    background-image: linear-gradient(to right, #ff6e7f, #bfe9ff);
+    color: grey;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: 25px;
+    
+} */
 .link-div{
     width: 50%;
     margin-left: 25%;
