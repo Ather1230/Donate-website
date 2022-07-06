@@ -32,19 +32,15 @@ body{
     padding: 7px 14px;
     border-radius: 5px;
     border: none;
-    /* border: 1px solid white; */
 }
 .link-btn a{
     text-decoration: none;
-    font-size: 27px;
-    
-    
+    font-size: 27px;    
 }
 #donate-sec{
     padding: 70px 0;
 
 }
-
 .donate-text{
     width: 50%;
     margin-left: 25%;
@@ -151,6 +147,9 @@ body{
 .middle-container h2{
     font-size: 50px;
 }
+.get-update-container{
+    margin-bottom: 150px;
+}
 .get-update{
     width: 50%;
     margin-left: 25%;
@@ -171,6 +170,17 @@ body{
 }
 .form-text input{
     height: 20px;
+}
+footer{
+    background-color: #0B0D17;
+    height: 150px;
+    text-align: center;
+    color:white;
+}
+footer h2{
+    color: #FF5959;
+    padding-top: 10px;
+    font-family: 'Lobster', cursive;
 }
 
 
